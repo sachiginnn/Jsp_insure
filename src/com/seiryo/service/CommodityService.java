@@ -11,6 +11,7 @@ public interface CommodityService {
 	// 查询所有商品
     List<Commodity> findAllCommodity();
     
+    //查询单个保险
     Commodity findById(int commodityId);
 
     // 详情页：联表查完整信息

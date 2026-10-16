@@ -91,7 +91,7 @@
 							<span>
 								<select id="cj" onchange="js(this,'cj')">
 									<option value="0">保険に加入しない</option>
-									<option value="53">35万円</option>
+									<option value="35">35万円</option>
 									<option value="70">70万円</option>
 									<option value="140">140万円</option>
 								</select>
@@ -195,9 +195,9 @@
 										<input hidden="hidden" id="price_value" value="${commodityInfo.getCommodity_price()}" />
 										<b><span  id="price_view">${commodityInfo.getCommodity_price()}</span><span>円</span></b>
 									</div>
-									<a href="#">
-										<b><div id="buyCommodity" class="button">ただちに保険をかける</div></b>
-									</a>
+									<a href="#" id="buyCommodity">
+									    <b><div class="button">ただちに保険をかける</div></b>
+									</a >
 								</div>
 							</div>
 						</div>
